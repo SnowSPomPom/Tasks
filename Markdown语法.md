@@ -64,7 +64,7 @@
  ### 🚩14：图片(直接拖进来或复制)
  给大家看我的可爱女儿(我爱她！！！)![疏墨，未来](https://user-images.githubusercontent.com/117020073/198994932-4f1575e3-afaa-4de0-a4f0-46f6859e4f69.png)
 ![郊野隐者](https://user-images.githubusercontent.com/117020073/198995950-e4065f1e-7787-48e9-a5ac-84ec1435d16d.png)
-
+(好大)
  ### 🚩15：分割线（按三个"*"并敲回车）
  ### 🚩16：表情包
- 给大家一个[链接](🍏 Apple Emoji List — Emojis for iPhone, iPad and macOS [Updated: 2022] (emojipedia.org))
+ 给大家一个[链接](https://emojipedia.org/apple/)
