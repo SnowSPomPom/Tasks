@@ -11,7 +11,7 @@
 
     - **加粗**  <u>下划线</u> *斜体*  ~~删除线~~ **这样** *或者这样*<u>还能这样</u> 
 
-    - 超链接，链接到[冰皮小屋]([SnowSPomPom/Tasks: SnowSPomPom's tasks (github.com)](https://github.com/SnowSPomPom/Tasks))（snowspompom的github某仓库，冰皮绒球机翻snowskinpompom，pompom听着挺可爱的，冰皮就缩写成snows吧（奇怪的逻辑））
+    - 超链接，链接到[冰皮小屋](https://github.com/SnowSPomPom/Tasks)（snowspompom的github某仓库，冰皮绒球机翻snowskinpompom，pompom听着挺可爱的，冰皮就缩写成snows吧（奇怪的逻辑））
 
     - `短代码条儿`
 
