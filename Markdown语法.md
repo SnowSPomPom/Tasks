@@ -67,4 +67,4 @@
 
  ### 🚩15：分割线（按三个"*"并敲回车）
  ### 🚩16：表情包
- 给大家一个[链接](🍏 Apple Emoji List — Emojis for iPhone, iPad and macOS [Updated: 2022] (emojipedia.org))
+ 给大家一个[链接](🍏 Apple Emoji List — Emojis for iPhone, iPad and macOS [Updated: 2022] (emojipedia.org)
