@@ -1,4 +1,4 @@
-# 「Markdown」创造理念
+# 「Markdown」的理念
 ### 🚩什么是Markdown
 1. **Markdown介绍**John Gruber在2004年发明了它，最初是为了能够让使用者更方便的转换xhml或者是html文档，但是随后在其它领域得到了更广泛的应用，今天有很多软件（如飞书 notion typora等效率软件、vs code notebook这样的代码编辑器）都使用或借鉴了Markdown的思路
 2. **Markdown的规则**可读->**[markdown介绍](https://www.bilibili.com/video/BV1hG411p7fX/?spm_id_from=333.1007.top_right_bar_window_custom_collection.content.click&vd_source=a53694399a591711b5b6fddd1ee60075)**
