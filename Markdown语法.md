@@ -63,7 +63,7 @@
  |2|剪电商视频|完成|
  |3|完成geek的作业|完成|
  ### 🚩14：图片(直接拖进来或复制)
- 给大家看我的可爱女儿(我爱她！！！)![疏墨，未来](https://github.com/SnowSPomPom/Tasks/blob/main/image/%E7%96%8F%E5%A2%A8%EF%BC%8C%E6%9C%AA%E6%9D%A5.png))
+ 给大家看我的可爱女儿(我爱她！！！)![疏墨，未来](https://github.com/SnowSPomPom/Tasks/blob/main/image/%E7%96%8F%E5%A2%A8%EF%BC%8C%E6%9C%AA%E6%9D%A5.png)
 ![郊野隐者](https://github.com/SnowSPomPom/Tasks/blob/main/image/%E7%96%8F%E5%A2%A8%EF%BC%8C%E6%9C%AA%E6%9D%A5.png)
 (好大)
  ### 🚩15：分割线（按三个"*"并敲回车）
