@@ -1,4 +1,4 @@
-# <font color=red> git的使用2（实操）</font>
+# <font color=red> Git的使用2（实操）</font>
 
 ###  一、建立仓库✨
 
