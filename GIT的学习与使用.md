@@ -37,7 +37,7 @@
 
 **git配置**：查看配置git config -l   & git/ect/gitconfig
 
-​				用户信息查看 git config --global user .name  "..." .email "..."
+​				     用户信息查看 git config --global user .name  "..." .email "..."
 
 ## 二、Git原理💡💡
 
