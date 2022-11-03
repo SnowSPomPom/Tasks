@@ -108,28 +108,21 @@
   
     所以Git合并分支也很快！就改改指针，工作区内容也不变！
   * **合并完分支后**，甚至可以删除`dev`分支。删除`dev`分支就是把`dev`指针给删掉，删掉后，我们就剩下了一条`master`分支：
-   ![1.5](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/1.5.png)
+   ![1.5](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/1.5.png)<br>
 * **2.创建与合并分支实操**✨
-  * **首先**，创建`SnowsP`分支,然后切换到该分支（`-b`表示创建并切换）
-   
-   ![2.1](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.1.png)
-  
-  * **然后**，用`git branch`命令查看当前分支（当前分支前会标一个*号）
-   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.2.png)
-   
-  * **然后**，我们可以在分支上正常提交，如我们提交修改一点的“hello.md"，提交
-   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.3.png)
-   
-  * **现在**，分支工作完成，我们可以切换会`master`分支
-   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.4.png)
-   
-  * **切换**回`master`分支后，再查看一个`hello.md`文件，刚才添加的内容不见了！因为那个提交是在`snowsp`分支上，而`master`分支此刻的提交点并没有变
-   
-  * **现在**我们合并工作成果
-    ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.5.png)
-    
-  * **合并完**后就可以方向删掉分支了
-   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.6.png)
+  * **首先**，创建`SnowsP`分支,然后切换到该分支（`-b`表示创建并切换）<br>
+   ![2.1](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.1.png)<br>
+  * **然后**，用`git branch`命令查看当前分支（当前分支前会标一个*号）<br>
+   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.2.png)<br>
+  * **然后**，我们可以在分支上正常提交，如我们提交修改一点的“hello.md"，提交<br>
+   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.3.png)<br>
+  * **现在**，分支工作完成，我们可以切换会`master`分支<br>
+   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.4.png)<br>
+  * **切换**回`master`分支后，再查看一个`hello.md`文件，刚才添加的内容不见了！因为那个提交是在`snowsp`分支上，而`master`分支此刻的提交点并没有变<br>
+  * **现在**我们合并工作成果<br>
+    ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.5.png) <br>
+  * **合并完**后就可以方向删掉分支了<br>
+   ![1.2](https://github.com/SnowSPomPom/Tasks/blob/main/image/git%E5%88%86%E6%94%AF/2.6.png)<br>
   * 因为创建、合并和删除分支非常快，所以Git鼓励你使用分支完成某个任务，合并后再删掉分支，这和直接在`master`分支上工作效果是一样的，但过程更安全。
 
 
