@@ -4,7 +4,7 @@
 
 ## 目录 ：
 
-  1. <a href=#t1>***css的position定位* **</a>
+  1. ***<a href=#t1>css的position定位</a>***
 
   2. ***<a href=#t3>css的float浮动</a>***
 
@@ -12,7 +12,7 @@
 
   4. ***<a href=#t5>CSS网页布局</a>***
 
-   5. <a href=#t2>***css伪类***</a>
+   5.***<a href=#t2>css伪类</a>***
 
       
 
