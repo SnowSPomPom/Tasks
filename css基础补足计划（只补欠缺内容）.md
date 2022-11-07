@@ -10,9 +10,9 @@
 
   3. ***<a href=#t4>css对齐</a>***
 
-  4. ***<a href=#t5>CSS网页布局</a>***
+  4. ***<a href=#t5>css网页布局</a>***
 
-  5.***<a href=#t2>css伪类</a>***
+  5. ***<a href=#t2>css伪类</a>***
 
       
 
@@ -31,15 +31,15 @@
   
   * **relative**:
   
-    * 相对定位元素的定位是相对其正常位置。![image-20221107214848627](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221107214848627.png)
-    * 移动相对定位元素，但它原本所占的空间不会改变。![image-20221107214910396](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221107214910396.png)
+    * 相对定位元素的定位是相对其正常位置。![(https://github.com/SnowSPomPom/Tasks/blob/main/image/css1.jpg)](https://github.com/SnowSPomPom/Tasks/blob/main/image/css1.jpg)
+    * 移动相对定位元素，但它原本所占的空间不会改变。![(https://github.com/SnowSPomPom/Tasks/blob/main/image/css2.jpg)](https://github.com/SnowSPomPom/Tasks/blob/main/image/css2.jpg)
     * 相对定位元素经常被用来作为绝对定位元素的容器块。
   
   * **absolute**:绝对定位的元素的位置<u>相对于最近的已定位父元素</u>，如果元素没有已定位的父元素，那么它的位置相对于<html>
   
   * **重叠元素**：**z-index**属性指定了一个元素的堆叠顺序（哪个元素应该放在前面，或后面）一个元素可以有正数或负数的堆叠顺序：
   
-    ![image-20221107220235124](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221107220235124.png)
+    ![](https://github.com/SnowSPomPom/Tasks/blob/main/image/css3.jpg)
 
 
 
@@ -94,9 +94,9 @@ Float（浮动），往往是用于图像，但它在布局时一样非常有用
 
   * **菜单导航区域**:菜单导航条包含了一些链接，可以引导用户浏览其他页面
 
-  * **内容区域**:![image-20221107225846186](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221107225846186.png)
+  * **内容区域**:!(https://github.com/SnowSPomPom/Tasks/blob/main/image/css3.jpg)]https://github.com/SnowSPomPom/Tasks/blob/main/image/css4.jpg)
 
-    ![image-20221107225901574](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221107225901574.png)
+    ![(https://github.com/SnowSPomPom/Tasks/blob/main/image/css5.jpg)](https://github.com/SnowSPomPom/Tasks/blob/main/image/css5.jpg)
 
   * **底部区域**：底部区域在网页的最下方，一般包含<u>版权信息和联系方式等</u>。
 
@@ -167,12 +167,12 @@ tip：透明度：**opacity**
 
 ### 参考资料：
 
-* [菜鸟教程（css position定位）]([CSS Position(定位) | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-positioning.html))
+* [CSS Position(定位) | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-positioning.html)
 
 * [CSS 伪类: 什么是 CSS 伪类？CSS 伪类怎么分类？ CSS 伪类有哪些？以及分类对应的伪类](https://blog.csdn.net/wuzhiyue2/article/details/118494100)
 
-* [菜鸟教程（css float浮动)]([CSS Position(定位) | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-positioning.html))
+* [CSS Position(定位) | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-positioning.html)
 
-* [菜鸟教程（css 布局-水平&垂直对齐）]([CSS 布局 – 水平 & 垂直对齐 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-align.html))
+* [CSS 布局 – 水平 & 垂直对齐 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-align.html)
 
-* [菜鸟教程（css网页布局）]([CSS 网页布局 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-website-layout.html))
+* [CSS 网页布局 | 菜鸟教程 (runoob.com)](https://www.runoob.com/css/css-website-layout.html)
