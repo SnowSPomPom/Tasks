@@ -46,13 +46,13 @@
 
   CSS/HTMLyou由渲染引擎（俗称内核）执行；JS 由 JS引擎（JS解释器，逐行翻译） 专门执行
 
-* <font color=#bb6688>JS 的组成</font>![image-20221109104708228](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221109104708228.png)
+* <font color=#bb6688>JS 的组成</font>![image-20221109104708228](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js1.png)
 
-  ![image-20221109105424775](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221109105424775.png)
+  ![image-20221109105424775](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js2.png)
 
-  ![image-20221109105501343](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221109105501343.png)
+  ![image-20221109105501343](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js3.png)
 
-  ![image-20221109105521016](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221109105521016.png)
+  ![image-20221109105521016](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js4.png)
 
   
 
@@ -117,7 +117,7 @@
 
   * 变量命名规范：
 
-    ![image-20221109114233153](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221109114233153.png)
+    ![image-20221109114233153](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js5.png)
 
   
 
@@ -125,7 +125,7 @@
 
   <a href=#t0><font color=#8888cc>back</font></a>
 
- * ![image-20221110161645083](C:\Users\BPRQ\AppData\Roaming\Typora\typora-user-images\image-20221110161645083.png)
+ * ![image-20221110161645083](https://github.com/SnowSPomPom/Tasks/blob/main/image/JavaScript/js6.png)
   
  * JavaScript 拥有动态类型。这意味着相同的变量可用作不同的类型
   
@@ -167,7 +167,7 @@
 
 * [JavaScript 语法 | 菜鸟教程 (runoob.com)](https://www.runoob.com/js/js-syntax.html)
 * [JavaScript基础语法-dom-bom-js-es6新语法-jQuery-数据可视化echarts黑马pink老师前端入门基础视频教程(500多集)持续_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1Sy4y1C7ha/?spm_id_from=333.337.search-card.all.click&vd_source=a53694399a591711b5b6fddd1ee60075)
-* 
+
 
 
 
