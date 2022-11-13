@@ -18,6 +18,11 @@
 
 <a href=#t2><font color=#8888cc>二、JavaScript书写位置:book:</font></a>
 
+<a href=#t3><font color=#8888cc>三、JavaScript输入输出语句:book:</font></a>
+
+<a href=#t4><font color=#8888cc>四、JavaScript语法：变量:book:</font></a>
+
+<a href=#t5><font color=#8888cc>五、JavaScript语法：数据类型:book:</font></a>
 
 
 ---------------
