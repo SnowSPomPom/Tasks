@@ -43,7 +43,7 @@
 
 * **转义字符**
 * **格式化字符串**
-  * <img src=E:\编程练习\Python\HelloWorld\image\1.png width=400>
+  * [https://github.com/SnowSPomPom/Tasks/blob/main/image/1.png]
   * 大括号占位的地方将会被值取代，可放入任何表达式
 
 * **常用的字符串方法**
