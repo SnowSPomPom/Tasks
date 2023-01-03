@@ -15,4 +15,4 @@ SnowSPomPom's tasks
 ## **阶段四**:book:：geek网页复刻
 #### **1.[地址](https://snowspompom.github.io/)**（即https://snowspompom.github.io/)
 ## **阶段五**:book::Python学习
-#### **1.python-notes**(施工ing)
+#### **1.[python-notes](https://github.com/SnowSPomPom/Tasks/blob/main/python_note.md)**
