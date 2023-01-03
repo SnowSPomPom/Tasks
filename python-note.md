@@ -53,7 +53,7 @@
   * //除（结果取整数）
   * 大写字母命名的变量可视作常量
   * round()舍去小数位；abs()取绝对值；内置函数可通过“python 版本 built-in functions”
-  * 数据转换<br> <img src=E:\编程练习\Python\HelloWorld\img\2.png width=100>
+  * 数据转换<br> <img src=E:\编程练习\Python\HelloWorld\image\2.png width=100>
 
 * **条件语句**
   ``` 
