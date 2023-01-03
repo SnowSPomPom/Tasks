@@ -43,7 +43,7 @@
 
 * **转义字符**
 * **格式化字符串**
-  * [https://github.com/SnowSPomPom/Tasks/blob/main/image/1.png]
+  * <img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/1.png" width=500>
   * 大括号占位的地方将会被值取代，可放入任何表达式
 
 * **常用的字符串方法**
@@ -53,7 +53,7 @@
   * //除（结果取整数）
   * 大写字母命名的变量可视作常量
   * round()舍去小数位；abs()取绝对值；内置函数可通过“python 版本 built-in functions”
-  * 数据转换<br> <img src=E:\编程练习\Python\HelloWorld\image\2.png width=100>
+  * 数据转换<br> <img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/2.png" width=100>
 
 * **条件语句**
   ``` 
@@ -66,8 +66,8 @@
   * 三元操作符 例子：message **=** "eligible" **if** age >= 18 **else** "not eligible"
 
 * **循环语句**
-  * for循环<br><img src=E:\编程练习\Python\HelloWorld\image\3.png width=400>
-  * for...else循环<br><img src=E:\编程练习\Python\HelloWorld\image\4.png width=400>
+  * for循环<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/3.png" width=500>
+  * for...else循环<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/4.png" width=500>
   * while循环<br>while 判断 : 表达式
 
 * **函数**
@@ -75,11 +75,11 @@
     def 函数名(形参1，形参2)：
         pass
   函数可以返回多值，如return(number,number + by)
-  * 星标参数<br><img src=E:\编程练习\Python\HelloWorld\image\5.png width=400>
+  * 星标参数<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/5.png" width=500>
   F9：快速插入中断点
 
 * **数据结构**
-  * **列表(list)** [] <br><img src=E:\编程练习\Python\HelloWorld\image\6.png width=400><br>访问列表项（类似访问字符串中字符）<br>列表拆包<br><img src=E:\编程练习\Python\HelloWorld\image\7.png width=400><img src=E:\编程练习\Python\HelloWorld\image\7.2.png width=400><br>遍历列表：for...in...遍历；enumerate()输出带序号的元组<br>常见操作：
+  * **列表(list)** [] <br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/6.png" width=500><br>访问列表项（类似访问字符串中字符）<br>列表拆包<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/7.png" width=500><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/7.2.png" width=500><br>遍历列表：for...in...遍历；enumerate()输出带序号的元组<br>常见操作：
     ```
     列表名.append() 在最后添加元素
     列表名.insert(0,"-") 插入"-"为第0个元素
@@ -91,15 +91,15 @@
     列表名.count(具体元素) 计算元素在列表里出现次数
     列表名.sort() 自动排序（数字，从小到大）/列表名.sort(reverse=True) 自动排序（数字，从大到小）
     ```
-  * **匿名函数**
-  <img src=E:\编程练习\Python\HelloWorld\image\lambda1.png width=400><br>映射函数(map())<br><img src=E:\编程练习\Python\HelloWorld\image\lambda2.png width=400><br><img src=E:\编程练习\Python\HelloWorld\image\lambda3.png width=400><br>筛选函数((filter))<br><img src=E:\编程练习\Python\HelloWorld\image\lambda4.png width=400><br>列表推导式<br><img src=E:\编程练习\Python\HelloWorld\image\lambda5.png width=400><br>zip函数<br>zip(list1,list2)两个列表交叉形成新列表<br><img src=E:\编程练习\Python\HelloWorld\image\zip.png width=250>
-  堆（LIFO后进先出）
-  队列 (FIFO先进先出)
-  元组（只读的列表，用小括号()定义，无括号多个元素默认为元组）（列表转元组tuple()）
-  交换变量值<br><img src=E:\编程练习\Python\HelloWorld\image\8.png width=150>
-  数组
-  集合 
-  字典<br><img src=E:\编程练习\Python\HelloWorld\image\dict.png width=400>
+  * **匿名函数**<br>
+  <img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/lambda1.png" width=500><br>映射函数(map())<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/lambda2.png" width=500><br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/lambda3.png" width=500><br>筛选函数((filter))<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/lambda4.png" width=500><br>列表推导式<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/lambda5.png" width=500><br>zip函数<br>zip(list1,list2)两个列表交叉形成新列表<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/zip.png" width=500><br>
+  堆（LIFO后进先出）<br>
+  队列 (FIFO先进先出)<br>
+  元组（只读的列表，用小括号()定义，无括号多个元素默认为元组）（列表转元组tuple()）<br>
+  交换变量值<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/8.png" width=200><br>
+  数组<br>
+  集合 <br>
+  字典<br><img src="https://github.com/SnowSPomPom/Tasks/blob/main/image/dict.png" width=500><br>
 
 
 
