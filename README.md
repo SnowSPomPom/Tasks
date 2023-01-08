@@ -16,3 +16,6 @@ SnowSPomPom's tasks
 #### **1.[地址](https://snowspompom.github.io/)**（即https://snowspompom.github.io/)
 ## **阶段五**:book::Python学习
 #### **1.[python-notes](https://github.com/SnowSPomPom/Tasks/blob/main/python_note.md)**
+## **阶段六**:book::Python爬虫
+#### **1.[python-text](https://github.com/SnowSPomPom/Tasks/blob/main/geek-snowsp_txt.py)**
+#### 2.[pyhton-img](https://github.com/SnowSPomPom/Tasks/blob/main/geek-snowsp_img.py)
