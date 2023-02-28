@@ -19,3 +19,5 @@ SnowSPomPom's tasks
 ## **阶段六**:book::Python爬虫
 #### **1.[python-text](https://github.com/SnowSPomPom/Tasks/blob/main/geek-snowsp_txt.py)**
 #### **2.[pyhton-img](https://github.com/SnowSPomPom/Tasks/blob/main/geek_snowsp_img.py)**
+-----
+#### **[JS_notes](https://github.com/SnowSPomPom/Tasks/blob/main/js_notes.md)**
