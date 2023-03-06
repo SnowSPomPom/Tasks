@@ -1,0 +1,66 @@
+<html>
+
+<head>
+    <script>
+        //函数定义
+        function names(a, b) {
+            return a * b;
+        }   //普通构造函数
+        var c = names(3, 4);
+        console.log(names(3, 4));
+        console.log(typeof c)
+
+        var d = function (a, b) {
+            console.log(a + b);
+        }   //匿名函数。函数存储在变量中
+        var e = d(3, 4);
+
+        function func1(a, b, c) {
+            console.log(arguments.length);
+        }   //arguments.length 属性返回函数调用过程接收到的参数个数
+        func1(1, 2);
+
+        (function () {
+            var x = 'hello!';
+            console.log(x);
+        })();   //自调用函数，表达式后面紧跟 () ，则会自动调用。
+
+        xx = (x, y) => x * y;   //（ES6）箭头函数：() => {函数声明}；只有一个参数时，圆括号是可选的
+        console.log(xx(3, 4))
+
+        //函数参数
+        function fun1(x, y = 10) {
+            console.log(x * y);
+        };  //显性参数
+        function fun2() {
+            var i, max = arguments[0];
+            if (max < 2) return max;
+            else
+                for (i = 0; i + 1 <= arguments.length; i++) {
+                    if (arguments[i] > max) max = arguments[i];
+                } return max;
+        }   //隐性参数arguments（表示了所有得到的参数）
+        fun1(1);
+        console.log(fun2(2, 9, 4));
+
+        //调用函数
+        var obj = {
+            first: 'snow',
+            secend: 'skin',
+            last: 'pompom',
+            act: function () {
+                console.log('say hi~');
+            }
+        }
+        obj.act();
+        obj.last
+
+        //闭包
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
