@@ -91,6 +91,27 @@
         var add4 = makeadder(5);
         console.log(add4(2));   //add4就是闭包
 
+
+        document.getElementById()   //返回一个匹配特定 ID的元素
+        function changeColor(newColor) {
+            var elem = document.getElementById('para');
+            elem.style.color = newColor;
+        }
+
+        //原型对象
+        var x = 1;
+        function changevis() {
+            changevis2(++x);
+            console.log = x;
+        }
+        function changevis2(x) {
+            var elems = document.getElementById('para');
+            if (x % 2 != 0)
+                elems.style.visibility = 'hidden';
+            else
+                elems.style.visibility = 'visible';
+        }
+
         function makeSizer(size) {
             return function () {
                 document.body.style.fontSize = size + 'px';
@@ -105,26 +126,8 @@
         document.getElementById('size-14').onclick = size14;
         document.getElementById('size-16').onclick = size16;
 
-
-
-        document.getElementById()   //返回一个匹配特定 ID的元素
-        function changeColor(newColor) {
-            var elem = document.getElementById('para');
-            elem.style.color = newColor;
-        }
-
-        //原型对象
-        var x = 1;
-        function changevis() {
-            changevis2(++x);
-        }
-        function changevis2(x) {
-            var elems = document.getElementById('para');
-            if (x % 2 != 0)
-                elems.style.visibility = 'hidden';
-            else
-                elems.style.visibility = 'visible';
-            ++x;
+        function time() {
+            document.getElementById("time").innerHTML = Date();
         }
     </script>
     <style type="text/css">
@@ -141,9 +144,11 @@
     <a href="#" id="size-16">16</a>
 
     <p id="para">Some text here</p>
+    <p id="time"></p>
     <button onclick="changeColor('blue');">blue</button>
     <button onclick="changeColor('red');">red</button>
     <button onclick="changevis()">隐身术</button>
+    <button onclick="time()">时间</button>
 </body>
 
 </html>
