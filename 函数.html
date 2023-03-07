@@ -56,11 +56,94 @@
         obj.last
 
         //闭包
+        //变量声明时如果不使用 var 关键字，那么它就是一个全局变量，即便它在函数内定义
+        //变量保留其值的时间被称为变量的生命周期。 当变量失去自己的作用域时，它不再具有值
+        var count = 0;
+        function add() {
+            return count += 1;
+        }
+        add();
+        add();
+        console.log(add());  //
+        function add2() {
+            var counts = 0;
+            return counts += 1;
+        }
+        add2();
+        add2();
+        console.log(add2());  //计数器困境
+
+        var counter = 0;
+        function add3() {
+            function display() { counter += 1; }
+            display();
+            return counter;
+        }
+        add3()
+        add3()
+        console.log(add3());    //内嵌函数
+
+        function makeadder(x) {
+            return function (y) {
+                return x + y;
+            }
+        }
+        var add4 = makeadder(5);
+        console.log(add4(2));   //add4就是闭包
+
+        function makeSizer(size) {
+            return function () {
+                document.body.style.fontSize = size + 'px';
+            };
+        }
+
+        var size12 = makeSizer(12);
+        var size14 = makeSizer(14);
+        var size16 = makeSizer(16);
+
+        document.getElementById('size-12').onclick = size12;
+        document.getElementById('size-14').onclick = size14;
+        document.getElementById('size-16').onclick = size16;
+
+
+
+        document.getElementById()   //返回一个匹配特定 ID的元素
+        function changeColor(newColor) {
+            var elem = document.getElementById('para');
+            elem.style.color = newColor;
+        }
+
+        //原型对象
+        var x = 1;
+        function changevis() {
+            changevis2(++x);
+        }
+        function changevis2(x) {
+            var elems = document.getElementById('para');
+            if (x % 2 != 0)
+                elems.style.visibility = 'hidden';
+            else
+                elems.style.visibility = 'visible';
+            ++x;
+        }
     </script>
+    <style type="text/css">
+        #body {
+            font-family: "寒蝉手拙体";
+            font-size: 12px;
+        }
+    </style>
 </head>
 
 <body>
+    <a href="#" id="size-12">12</a>
+    <a href="#" id="size-14">14</a>
+    <a href="#" id="size-16">16</a>
 
+    <p id="para">Some text here</p>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+    <button onclick="changevis()">隐身术</button>
 </body>
 
 </html>
