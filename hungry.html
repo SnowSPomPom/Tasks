@@ -1,53 +1,69 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>hungry</title>
-<style type="text/css">
-#demo {
-	color: #000;
-	visibility: visible;
-	font-size: 12px;
-}
-#ulchange {
-	list-style-type: none;
-	height: 20px;
-	text-align: center;
-}
-#ulchange li {
-	display: block;
-	float: left;
-	height: 20px;
-	width: 60px;
-	text-align: center;
-}
-</style>
-<script>
-var x;
-function color(x){
-	document.getElementById("demo").style.color=x;
-}
-var a=1;
-function changevis(x){
-	a=a+x;
-	if(a%2==0) document.getElementById("demo").style.visibility='hidden';
-	else document.getElementById("demo").style.visibility='visible';
-}
 
-</script>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>hungry</title>
+	<style type="text/css">
+		#demo {
+			color: #000;
+			visibility: visible;
+			font-size: 12px;
+		}
+
+		#ulchange {
+			list-style-type: none;
+			height: 20px;
+			text-align: center;
+		}
+
+		#ulchange li {
+			display: block;
+			float: left;
+			height: 20px;
+			width: 100px;
+			text-align: center;
+		}
+	</style>
+	<script>
+		var x;
+		function color(x) {
+			document.getElementById("demo").style.color = x;
+		}
+		var a = 1;
+		function changevis(x) {
+			a = a + x;
+			if (a % 2 == 0) document.getElementById("demo").style.visibility = 'hidden';
+			else document.getElementById("demo").style.visibility = 'visible';
+		}
+		function bigger() {
+			document.getElementById("demo").style.fontSize = 40 + 'px';
+		}
+		function smaller() {
+			document.getElementById("demo").style.fontSize = 16 + 'px';
+		}
+
+	</script>
 </head>
 
 <body>
-<p id="demo">I'm hungry</p>
-<ul id="ulchange">
-<li onclick=color('blue')>
-blue</li>
-<li onclick="color('red')">
-red</li>
-<li onclick="changevis(1)">
-隐身术</li>
-<li onclick="bigger()">
-超级饿</li>
-</ul>
+	<p id="demo">I'm hungry</p>
+	<ul id="ulchange">
+		<li onclick="color('blue')">
+			<button>blue</button>
+		</li>
+		<li onclick=" color('red')">
+			<button>red</button>
+		</li>
+		<li onclick="changevis(1)">
+			<button>隐身术</button>
+		</li>
+		<li onclick="bigger()">
+			<button>超级饿</button>
+		</li>
+		<li onclick="smaller()"><button>感觉又不饿了</button></button></li>
+	</ul>
 </body>
+
 </html>

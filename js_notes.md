@@ -106,9 +106,12 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
 ### DOM
   #### DOM HTML 
   * **直接写入html**： document.write() 可用于直接向 HTML 输出流写内容
+    ```
+    document.getElementById("p1").innerHTML="新文本!";
+    ```
   * **改变 HTML 内容**：document.getElementById(id).innerHTML=新的 HTML   改变HTML元素的内容
     ```
-    例：document.getElementById("p1").innerHTML="新文本!";
+    例：
     var element=document.getElementById("header");
     element.innerHTML="新标题";
     ```
@@ -124,3 +127,36 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
     ```
   #### DOM CSS
   * **改变 HTML 样式**：document.getElementById(id).style.property=新样式
+  #### DOM 事件
+  * **onclick**
+  * **onchange** 更改设置时将触发该事件
+  * **onmouseover 和 onmouseout 事件**
+  * **onmousedown、onmouseup 以及 onclick 事件** 首先当点击鼠标按钮时，会触发 onmousedown 事件，当释放鼠标按钮时，会触发 onmouseup 事件，最后，当完成鼠标点击时，会触发 onclick 事件
+  #### **EventListener** 
+  * **addEventListener() 方法**
+    ```
+    element.addEventListener(event, function, useCapture);
+    例子：
+    document.getElementById("demo").addEventListener("click", displayDate);
+    对id“demo”监视，监视到click就执行displayDate函数
+    ```
+  * **事件冒泡或事件捕获** 
+  事件传递定义了元素事件触发的顺序,若div里装了p，用户点击 <p> 元素, 哪个元素的 "click" 事件先被触发呢？
+  在 *冒泡* 中，*内部元素的事件会先被触发*，然后再触发外部元素，即： <p> 元素的点击事件先触发，然后会触发 <div> 元素的点击事件。
+  在 *捕获* 中，*外部元素的事件会先被触发*，然后才会触发内部元素的事件，即： <div> 元素的点击事件先触发 ，然后再触发 <p> 元素的点击事件。
+
+  * **removeEventListener() 方法** 
+  element.removeEventListener(event, function)
+#### DOM 元素 (节点)
+  * **创建新的 HTML 元素 (节点)** 
+  appendChild()   insertBefore()
+  * **移除已存在的元素**
+  parent.removeChild(child)
+  * **替换 HTML 元素**
+  replaceChild()
+  --------
+  #### tip
+  * String.prototype.toUpperCase() 转大写函数
+  * resize（css一种属性）
+  * Math.random()（随机数函数）
+  
