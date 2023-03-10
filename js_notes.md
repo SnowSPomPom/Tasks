@@ -108,7 +108,8 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
   * **直接写入html**： document.write() 可用于直接向 HTML 输出流写内容
     ```
     document.getElementById("p1").innerHTML="新文本!";
-    ```
+                方法(method)       属性(property)
+     ```
   * **改变 HTML 内容**：document.getElementById(id).innerHTML=新的 HTML   改变HTML元素的内容
     ```
     例：
@@ -125,14 +126,52 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
     document.getElementById("image").src="landscape.jpg";
     </script>
     ```
+  * **Finding HTML Elements**
+
+    | **Method**                            | **Description**   |
+    | ------------------------------------- | ----------------- |
+    | document.getElementById(id)           | 通过id寻找属性    |
+    | document.getElementsByTagName(name)   | 通过标签寻找属性  |
+    | document.getElementsByClassName(name) | 通过class寻找属性 |
+
+  * **Changing HTML Elements**
+    | **Property**                           | **Description**                               |
+    | -------------------------------------- | --------------------------------------------- |
+    | element.innerHTML =  new html content  | Change the inner HTML of an element           |
+    | element.attribute = new value          | Change the attribute value of an HTML element |
+    | element.style.property = new style     | Change the style of an HTML element           |
+    | **Method**                             | **Description**                               |
+    | element.setAttribute(attribute, value) | Change the attribute value of an HTML element |
+  * **Adding and Deleting Elements**
+    | **Method**                      | **Description**                   |
+    | ------------------------------- | --------------------------------- |
+    | document.createElement(element) | Create an HTML element            |
+    | document.removeChild(element)   | Remove an HTML element            |
+    | document.appendChild(element)   | Add an HTML element               |
+    | document.replaceChild(new, old) | Replace an HTML element           |
+    | document.write(text)            | Write into the HTML output stream |
+
   #### DOM CSS
   * **改变 HTML 样式**：document.getElementById(id).style.property=新样式
+    ```
+      一些常用的 HTML DOM 方法：
+
+    getElementById(id) - 获取带有指定 id 的节点（元素）
+    appendChild(node) - 插入新的子节点（元素）
+    removeChild(node) - 删除子节点（元素）
+    一些常用的 HTML DOM 属性：
+
+    innerHTML - 节点（元素）的文本值
+    parentNode - 节点（元素）的父节点
+    childNodes - 节点（元素）的子节点
+    attributes - 节点（元素）的属性节点
+    ```
   #### DOM 事件
   * **onclick**
   * **onchange** 更改设置时将触发该事件
   * **onmouseover 和 onmouseout 事件**
   * **onmousedown、onmouseup 以及 onclick 事件** 首先当点击鼠标按钮时，会触发 onmousedown 事件，当释放鼠标按钮时，会触发 onmouseup 事件，最后，当完成鼠标点击时，会触发 onclick 事件
-  #### **EventListener** 
+  #### EventListener
   * **addEventListener() 方法**
     ```
     element.addEventListener(event, function, useCapture);
@@ -147,15 +186,16 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
 
   * **removeEventListener() 方法** 
   element.removeEventListener(event, function)
-#### DOM 元素 (节点)
+  #### DOM 元素 (节点)
   * **创建新的 HTML 元素 (节点)** 
   appendChild()   insertBefore()
   * **移除已存在的元素**
   parent.removeChild(child)
   * **替换 HTML 元素**
   replaceChild()
+  #### DOM 方法
   --------
-  #### tip
+### tip
   * String.prototype.toUpperCase() 转大写函数
   * resize（css一种属性）
   * Math.random()（随机数函数）
