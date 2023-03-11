@@ -126,30 +126,7 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
     document.getElementById("image").src="landscape.jpg";
     </script>
     ```
-  * **Finding HTML Elements**
-
-    | **Method**                            | **Description**   |
-    | ------------------------------------- | ----------------- |
-    | document.getElementById(id)           | 通过id寻找属性    |
-    | document.getElementsByTagName(name)   | 通过标签寻找属性  |
-    | document.getElementsByClassName(name) | 通过class寻找属性 |
-
-  * **Changing HTML Elements**
-    | **Property**                           | **Description**                               |
-    | -------------------------------------- | --------------------------------------------- |
-    | element.innerHTML =  new html content  | Change the inner HTML of an element           |
-    | element.attribute = new value          | Change the attribute value of an HTML element |
-    | element.style.property = new style     | Change the style of an HTML element           |
-    | **Method**                             | **Description**                               |
-    | element.setAttribute(attribute, value) | Change the attribute value of an HTML element |
-  * **Adding and Deleting Elements**
-    | **Method**                      | **Description**                   |
-    | ------------------------------- | --------------------------------- |
-    | document.createElement(element) | Create an HTML element            |
-    | document.removeChild(element)   | Remove an HTML element            |
-    | document.appendChild(element)   | Add an HTML element               |
-    | document.replaceChild(new, old) | Replace an HTML element           |
-    | document.write(text)            | Write into the HTML output stream |
+  
 
   #### DOM CSS
   * **改变 HTML 样式**：document.getElementById(id).style.property=新样式
@@ -193,10 +170,66 @@ JS对象分3种：自定义对象、内置对象、浏览器对象
   parent.removeChild(child)
   * **替换 HTML 元素**
   replaceChild()
-  #### DOM 方法
+
+  * **Finding HTML Elements**
+
+    | **Method**                            | **Description**      |
+    | ------------------------------------- | -------------------- |
+    | document.getElementById(id)           | 通过id寻找element    |
+    | document.getElementsByTagName(name)   | 通过标签寻找element  |
+    | document.getElementsByClassName(name) | 通过class寻找element |
+
+  * **Changing HTML Elements**
+    | **Property**                           | **Description**                               |
+    | -------------------------------------- | --------------------------------------------- |
+    | element.innerHTML =  new html content  | Change the inner HTML of an element           |
+    | element.attribute = new value          | Change the attribute value of an HTML element |
+    | element.style.property = new style     | Change the style of an HTML element           |
+    | **Method**                             | **Description**                               |
+    | element.setAttribute(attribute, value) | Change the attribute value of an HTML element |
+  * **Adding and Deleting Elements**
+    | **Method**                      | **Description**                   |
+    | ------------------------------- | --------------------------------- |
+    | document.createElement(element) | Create an HTML element            |
+    | document.removeChild(element)   | Remove an HTML element            |
+    | document.appendChild(element)   | Add an HTML element               |
+    | document.replaceChild(new, old) | Replace an HTML element           |
+    | document.write(text)            | Write into the HTML output stream |
+  #### DOM forms
+  (attest in hungry.html)
+
+
+### 执行上下文
+
   --------
 ### tip
   * String.prototype.toUpperCase() 转大写函数
   * resize（css一种属性）
   * Math.random()（随机数函数）
-  
+  * [声明关键字](https://www.cnblogs.com/forcheng/p/13033976.html)
+    | 关键字 | 作用域           | 重复声明                 | 绑定全局对象               | 变量提升与暂存死区                                                                                                                                   | 是否只读 |
+    | ------ | ---------------- | ------------------------ | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
+    | var    | 全局、整个函数块 | 可在同一作用域中重复声明 | 会在全局对象里新建一个属性 | 声明的变量在执行上下文创建阶段就会被「创建」和「初始化」，因此对于执行阶段来说，可以在声明之前使用                                                   | 可改     |
+    | let    | 当前所处代码块   | 不可,会抛出异常          | 不会新建属性               | 声明的变量在执行上下文创建阶段只会被「创建」而不会被「初始化」，因此对于执行阶段来说，如果在其定义执行前使用，相当于使用了未被初始化的变量，会报错。 | 可改     |
+    | const  | 同let            | 同let                    | 同let                      | 同let                                                                                                                                                | 只读     |
+    ```
+    var|let
+        function varTest() {
+      var a = 1;
+      {
+        var a = 2; // 函数块中，同一个变量
+        console.log(a); // 2
+      }
+      console.log(a); // 2
+    }
+
+    function letTest() {
+      let a = 1;
+      {
+        let a = 2; // 代码块中，新的变量
+        console.log(a); // 2
+      }
+      console.log(a); // 1
+    }
+    let 声明的变量的作用域可以比 var 声明的变量的作用域有更小的限定范围，更具灵活
+    ```

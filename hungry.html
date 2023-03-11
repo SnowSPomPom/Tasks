@@ -9,7 +9,6 @@
 		#demo {
 			color: #000;
 			visibility: visible;
-			font-size: 12px;
 		}
 
 		#ulchange {
@@ -37,18 +36,26 @@
 			if (a % 2 == 0) document.getElementById("demo").style.visibility = 'hidden';
 			else document.getElementById("demo").style.visibility = 'visible';
 		}
-		function bigger() {
-			document.getElementById("demo").style.fontSize = 40 + 'px';
+		function changesize(x) {
+			document.getElementById("demo").innerHTML = 'I am ' + 'hungry';
+
+			if (x == "bigger")
+				document.getElementById("demo").style.fontSize = 50 + 'px';
+			else {
+				document.getElementById("demo").style.fontSize = 24 + 'px';
+				document.getElementById("demo").innerHTML = 'I am not hungry';
+			}
 		}
-		function smaller() {
-			document.getElementById("demo").style.fontSize = 16 + 'px';
+		function validate() {
+			let x = document.forms['myform']['fname'].value;
 		}
+
 
 	</script>
 </head>
 
 <body>
-	<p id="demo">I'm hungry</p>
+	<h2 id="demo">I am hungry</h2>
 	<ul id="ulchange">
 		<li onclick="color('blue')">
 			<button>blue</button>
@@ -59,11 +66,19 @@
 		<li onclick="changevis(1)">
 			<button>隐身术</button>
 		</li>
-		<li onclick="bigger()">
+		<li onclick="changesize('bigger')">
 			<button>超级饿</button>
 		</li>
-		<li onclick="smaller()"><button>感觉又不饿了</button></button></li>
+		<li onclick="changesize('smaller')"><button>感觉又不饿了</button></button></li>
+
 	</ul>
+	<hr>
+	<h2>JavaScript Validation</h2>
+	<form name="myform" action="/action_page.php" onsubmit="retu
+	 validate()" method="post">
+		name: <input type="text" name="fname">
+		<input type="submit" value="Submit">
+	</form>
 </body>
 
 </html>
